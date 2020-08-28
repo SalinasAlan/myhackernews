@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LinkList from './LinkList'
+import LinkList from './Link/List'
 
 class App extends Component {
   render() {
