@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MyHackerNews
 
-## Available Scripts
+This is a proyect was created with the tutorial "[React + Apollo Tutorial - Introduction]".
 
-In the project directory, you can run:
+### Tech
 
-### `npm start`
+MyHackerNew is a clone of the [HackerNews] and was created with the next technologies:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [React]
+* [Apollo]
+* [GraphQL]
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open your terminal in the root of the proyects and run the next commands 
 
-### `npm run build`
+```sh
+$ npm install
+$ npm run start
+```
+This run the app. Now we need to run the server.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open the terminal en go to the server file
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```sh
+$ yarn install
+$ yarn run
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can find the app in "http://localhost:3000/" and the server in "http://localhost:4000/"
 
-### `npm run eject`
+### Screen shoots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![](images/myHackerNews.png)
+![](images/myHackerNewsTop.png)
+![](images/myHackerNewsSearch.png)
+![](images/myHackerNewsLogin.png)
+![](images/myHackerNewsSignup.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+   [React]: <https://reactjs.org/>
+   [Apollo]: <https://www.apollographql.com/>
+   [GraphQL]: <https://graphql.org/>
+   [React + Apollo Tutorial - Introduction]: <https://www.howtographql.com/react-apollo/0-introduction/>
+   [HackerNews]: <https://news.ycombinator.com/news>
